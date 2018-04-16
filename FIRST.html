@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实验1</title>
+    <style type="text/css">
+        body{
+            background-color: white;
+        }
+        .top1{
+            background-color: aliceblue;
+            height: 30px;
+            margin-bottom: 4px;
+        }
+        #sp2{
+            float: right;
+        }
+        #sp3{
+            float: left;
+            color: white;
+            margin-bottom:7px;
+        }
+        #sp4{
+            float: right;
+            margin-bottom:7px;
+        }
+        p{
+            display: inline;
+            color: cornflowerblue;
+            margin-top:5px;
+        }
+        #t1 {
+            border-collapse:collapse;
+            background-color:aliceblue;
+        }
+        #t2{
+            float: right;
+            color: cornflowerblue;
+            border-collapse:collapse;
+            margin-top:5px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="top1">
+    <span id="sp1"><strong>位置:</strong>首页>购物后台管理>商品列表</span>
+    <span id="sp2"> <img src="所需素材/实验1/images/leftico04.png">今天是9999年,13月32日,星期八 25:61</span>
+</div>
+			<span id="sp3">
+				<form>
+					<select name="类别">
+                        <option value="">商品类别</option>
+                        <option value="">运动</option>
+                        <option value="">男装</option>
+                        <option value="">女装</option>
+                        <option value="">童装</option>
+					</select>
+					<input type="text" value="请输入商品名" size="15" maxlength="10" />
+					 <input class="sch-btn"  type="submit" style="background-color:dodgerblue"value="&nbsp;查询&nbsp;">
+                </form>
+            </span>
+    <span id="sp4">
+				<button><img src="所需素材/实验1/images/t01.png" />添加</button>
+				<button><img src="所需素材/实验1/images/t02.png" />修改</button>
+				<button><img src="所需素材/实验1/images/t03.png" />删除</button>
+				<button><img src="所需素材/实验1/images/t04.png" />统计</button>
+				<button><img src="所需素材/实验1/images/t05.png" />设置</button>
+    </span>
+<table id="t1" border="1px" solid black width="100%" height="500">
+    <tr>
+        <td height="25">
+            <form>
+                <input type="checkbox" style="" name="all" /><strong>全选</strong>
+                <input type="checkbox" name="none" /><strong>反选</strong>
+            </form>
+        </td>
+        <td><strong>缩略图</strong></td>
+        <td><strong>商品名称</strong></td>
+        <td><strong>商品类别</strong></td>
+        <td><strong>数量(件)</strong></td>
+        <td><strong>单价(元)</strong></td>
+        <td><strong>发布时间</strong></td>
+        <td><strong>是否审核</strong></td>
+        <td><strong>操作</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <input type="checkbox" name="选择" />
+            </form>
+        </td>
+        <td><img src="所需素材/实验1/images/img06.png" /></td>
+        <td>头层牛皮户外鞋 男防滑登山鞋</td>
+        <td>运动</td>
+        <td>334</td>
+        <td>$566</td>
+        <td>2015-10-06</td>
+        <td>已审核</td>
+        <td>
+            <a href="#" >查看</a>
+            <a href="#" >删除</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <input type="checkbox" name="选择" />
+            </form>
+        </td>
+        <td><img src="所需素材/实验1/images/img07.png" /></td>
+        <td>七匹狼休闲裤春夏新款时尚裤</td>
+        <td>男装</td>
+        <td>455</td>
+        <td>$234</td>
+        <td>2016-04-12</td>
+        <td>已审核</td>
+        <td>
+            <a href="#" >查看</a>
+            <a href="#" >删除</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <input type="checkbox" name="选择" />
+            </form>
+        </td>
+        <td><img src="所需素材/实验1/images/img08.png" /></td>
+        <td>欧美大牌五分袖收腰显瘦睫毛蕾丝 </td>
+        <td>女装</td>
+        <td>899</td>
+        <td>¥136.00</td>
+        <td>2015-06-07</td>
+        <td>未审核</td>
+        <td>
+            <a href="#" >查看</a>
+            <a href="#" >删除</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <input type="checkbox" name="选择" />
+            </form>
+        </td>
+        <td><img src="所需素材/实验1/images/img09.png" /></td>
+        <td>锐步REEBOK热2015新款</td>
+        <td>运动</td>
+        <td>3456</td>
+        <td>¥346.00</td>
+        <td>2015-06-06</td>
+        <td>已审核</td>
+        <td>
+            <a href="#" >查看</a>
+            <a href="#" >删除</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <input type="checkbox" name="选择" />
+            </form>
+        </td>
+        <td><img src="所需素材/实验1/images/img10.png" /></td>
+        <td>新款中大童荷叶边短袖裙子韩版</td>
+        <td>童装</td>
+        <td>678</td>
+        <td>¥316.00</td>
+        <td>2015-06-05</td>
+        <td>已审核</td>
+        <td>
+            <a href="#" >查看</a>
+            <a href="#" >删除</a>
+        </td>
+    </tr>
+
+</table>
+<table id="t2" border="1px" solid black >
+   共 <p>989</p>条记录,现在是第 <p>243</p>页
+				<tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+					<th>&nbsp;1&nbsp;</th>
+					<th>&nbsp;2&nbsp;</th>
+					<th>&nbsp;3&nbsp;</th>
+					<th>&nbsp;4&nbsp;</th>
+					<th>&nbsp;5&nbsp;</th>
+					<th>....</th>
+					<th>24</th>
+				</tr>
+</table>
+</body>
+</html>
